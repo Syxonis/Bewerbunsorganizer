@@ -34,20 +34,13 @@ git clone https://github.com/your-username/arbeitsagentur-job-tracker.git
 cd arbeitsagentur-job-tracker
 ```
 
-### 3. (Optional) Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-```
-
-### 4. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run the program
+### 4. Run the program
 
 ```bash
 python main.py
