@@ -1,5 +1,8 @@
 # Arbeitsagentur Job Tracker
 
+**This README is available in English and German.**  
+[English Version](README.en.md)
+
 Dies ist ein Desktop-Tool, das ich entwickelt habe, um Bewerbungen besser und organisierter zu verwalten. Es verbindet sich mit der offiziellen API der Bundesagentur für Arbeit und ermöglicht das Suchen nach Jobs, das Speichern von Stellenanzeigen, das Hinzufügen persönlicher Notizen und das Verfolgen des Bewerbungsstatus.
 
 ## Funktionen
