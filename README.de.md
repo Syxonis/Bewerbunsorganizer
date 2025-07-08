@@ -1,0 +1,74 @@
+# Arbeitsagentur Job Tracker
+
+Dies ist ein Desktop-Tool, das ich entwickelt habe, um Bewerbungen besser und organisierter zu verwalten. Es verbindet sich mit der offiziellen API der Bundesagentur für Arbeit und ermöglicht das Suchen nach Jobs, das Speichern von Stellenanzeigen, das Hinzufügen persönlicher Notizen und das Verfolgen des Bewerbungsstatus.
+
+## Funktionen
+
+- Jobsuche nach Titel, Standort, Branche und Anstellungsart (z. B. Vollzeit, Praktikum, Ausbildung)
+- Speichern von Stellenanzeigen mit Status und persönlichen Notizen
+- Verfolgung des Status: Neu, Interessiert, Beworben, Vorstellungsgespräch, Abgelehnt, Angenommen
+- Direkter Link zur Originalanzeige auf arbeitsagentur.de
+- Export aller gespeicherten Jobs als CSV-Datei
+
+## Voraussetzungen
+
+- Python 3
+- Folgende Python-Pakete: `PyQt5`, `requests`
+
+## Installation
+
+### 1. Python 3 installieren
+
+Falls noch nicht vorhanden, Python 3 herunterladen und installieren von:
+
+https://www.python.org/downloads/
+
+Stelle sicher, dass du das Kästchen **„Add Python to PATH“** während der Installation aktivierst (besonders unter Windows).
+
+### 2. Projekt herunterladen
+
+Öffne ein Terminal (oder die Eingabeaufforderung) und führe Folgendes aus:
+
+```bash
+git clone https://github.com/your-username/arbeitsagentur-job-tracker.git
+cd arbeitsagentur-job-tracker
+```
+
+### 3. (Optional) Virtuelle Umgebung erstellen
+
+```bash
+python -m venv venv
+source venv/bin/activate        # Unter Windows: venv\Scripts\activate
+```
+
+### 4. Abhängigkeiten installieren
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Programm starten
+
+```bash
+python main.py
+```
+
+## Anwendung
+
+- Fülle das Suchformular mit Jobtitel, Ort und optionalen Filtern aus.
+- Klicke auf „Suchen“, um Ergebnisse zu laden.
+- Wähle einen Job aus der Liste aus, füge Notizen hinzu oder ändere den Status.
+- Klicke auf „Job speichern“, um ihn zu speichern.
+- Alle gespeicherten Jobs erscheinen in der unteren Tabelle und können bearbeitet oder gelöscht werden.
+- Mit „Als CSV exportieren“ kannst du deine gespeicherten Jobs in ein Tabellenformat exportieren.
+
+## Projektdateien
+
+- `main.py` – Hauptanwendung
+- `job_data.py` – Verwaltung gespeicherter Jobs
+- `saved_jobs/` – Ordner, in dem die Daten gespeichert werden
+- `requirements.txt` – Python-Abhängigkeiten
+
+## Hinweise
+
+Dieses Tool wurde ursprünglich für den Eigengebrauch entwickelt, um Bewerbungen zu verwalten. Falls es auch für andere hilfreich ist – gerne verwenden oder verbessern!
