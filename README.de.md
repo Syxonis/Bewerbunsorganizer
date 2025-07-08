@@ -4,9 +4,9 @@ Dies ist ein Desktop-Tool, das ich entwickelt habe, um Bewerbungen besser und or
 
 ## Funktionen
 
-- Jobsuche nach Titel, Standort, Branche und Anstellungsart (z. B. Vollzeit, Praktikum, Ausbildung)
+- Jobsuche nach Titel, Ort, Branche und Anstellungsart (z. B. Vollzeit, Praktikum, Ausbildung)
 - Speichern von Stellenanzeigen mit Status und persönlichen Notizen
-- Verfolgung des Status: Neu, Interessiert, Beworben, Vorstellungsgespräch, Abgelehnt, Angenommen
+- Verfolgung des Status: New, Interested, Applied, Interview, Rejected, Accepted
 - Direkter Link zur Originalanzeige auf arbeitsagentur.de
 - Export aller gespeicherten Jobs als CSV-Datei
 
@@ -27,27 +27,27 @@ Stelle sicher, dass du das Kästchen **„Add Python to PATH“** während der I
 
 ### 2. Projekt herunterladen
 
-Öffne ein Terminal (oder die Eingabeaufforderung) und führe Folgendes aus:
+Entweder lade die Release-Version herunter und entpacke sie in einen Ordner,  
+ODER  
+öffne ein Terminal (oder die Eingabeaufforderung) und führe folgenden Befehl aus:
 
 ```bash
 git clone https://github.com/your-username/arbeitsagentur-job-tracker.git
-cd arbeitsagentur-job-tracker
 ```
 
-### 3. (Optional) Virtuelle Umgebung erstellen
+### 3. Abhängigkeiten installieren
 
-```bash
-python -m venv venv
-source venv/bin/activate        # Unter Windows: venv\Scripts\activate
-```
-
-### 4. Abhängigkeiten installieren
+Öffne das Windows-Terminal im entpackten Ordner oder navigiere im Terminal zu diesem Ordner und tippe:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Programm starten
+### 4. Programm starten
+
+Starte das Programm ganz normal  
+ODER  
+führe aus:
 
 ```bash
 python main.py
