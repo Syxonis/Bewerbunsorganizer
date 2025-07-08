@@ -27,21 +27,25 @@ Make sure to check the box that says **"Add Python to PATH"** during installatio
 
 ### 2. Download the project
 
+Either Download the release, and extract it to a folder,
+OR
 Open a terminal (or command prompt), then run:
 
 ```bash
 git clone https://github.com/your-username/arbeitsagentur-job-tracker.git
-cd arbeitsagentur-job-tracker
 ```
 
 ### 3. Install dependencies
 
+Open the Windows Terminal in the folder you just extracted, or open the Terminal and navigate to the folder, and type:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Run the program
 
+Run the program normally
+OR
 ```bash
 python main.py
 ```
